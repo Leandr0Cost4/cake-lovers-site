@@ -58,26 +58,28 @@
   }
 
   .header-row {
-    display: grid !important;
-    grid-template-columns: 3.1rem minmax(0, 1fr) 3.1rem !important;
+    position: relative !important;
+    display: flex !important;
     align-items: center !important;
-    gap: 0.55rem !important;
-    min-height: 4.55rem !important;
+    justify-content: space-between !important;
+    min-height: 4.2rem !important;
+    height: 4.2rem !important;
     margin: 0 !important;
-    padding: calc(0.5rem + env(safe-area-inset-top, 0px)) 0.95rem 0.55rem !important;
+    padding: 0 0.95rem !important;
     background: transparent !important;
     border: 0 !important;
     box-shadow: none !important;
   }
 
   .brand {
-    grid-column: 2 !important;
-    justify-self: center !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: min(11.6rem, 64vw) !important;
-    height: 2.2rem !important;
+    width: min(10.8rem, 64vw) !important;
+    height: 1.95rem !important;
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -86,12 +88,12 @@
     border-radius: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
-    transform: none !important;
+    transform: translate(-50%, -50%) !important;
   }
 
   .brand:hover,
   .brand:focus-visible {
-    transform: none !important;
+    transform: translate(-50%, -50%) !important;
   }
 
   .brand-desktop-image {
@@ -102,21 +104,21 @@
     display: block !important;
     width: 100% !important;
     height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
     object-fit: contain !important;
     object-position: center center !important;
   }
 
   .mobile-header-spacer {
     display: block !important;
-    grid-column: 3 !important;
     width: 3.1rem !important;
     height: 3.1rem !important;
+    visibility: hidden !important;
   }
 
   .menu-toggle {
     display: inline-flex !important;
-    grid-column: 1 !important;
-    justify-self: start !important;
     align-items: center !important;
     justify-content: center !important;
     width: 3.1rem !important;
@@ -126,6 +128,7 @@
     border-radius: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
+    z-index: 2 !important;
   }
 
   .menu-toggle span {
@@ -279,15 +282,14 @@
 
 @media (max-width: 760px) {
   .header-row {
-    grid-template-columns: 2.9rem minmax(0, 1fr) 2.9rem !important;
-    min-height: 4.2rem !important;
-    gap: 0.4rem !important;
-    padding: calc(0.4rem + env(safe-area-inset-top, 0px)) 0.78rem 0.45rem !important;
+    min-height: 4rem !important;
+    height: 4rem !important;
+    padding: 0 0.78rem !important;
   }
 
   .brand {
-    width: min(10.8rem, 62vw) !important;
-    height: 2.02rem !important;
+    width: min(10.1rem, 62vw) !important;
+    height: 1.82rem !important;
   }
 
   .menu-toggle,
@@ -331,15 +333,14 @@
   }
 
   .header-row {
-    grid-template-columns: 2.7rem minmax(0, 1fr) 2.7rem !important;
-    min-height: 4rem !important;
-    gap: 0.25rem !important;
-    padding: calc(0.34rem + env(safe-area-inset-top, 0px)) 0.6rem 0.38rem !important;
+    min-height: 3.8rem !important;
+    height: 3.8rem !important;
+    padding: 0 0.6rem !important;
   }
 
   .brand {
-    width: min(10.1rem, 60vw) !important;
-    height: 1.88rem !important;
+    width: min(9.5rem, 60vw) !important;
+    height: 1.72rem !important;
   }
 
   .menu-toggle,
