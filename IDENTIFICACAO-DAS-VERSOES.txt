@@ -1,0 +1,14 @@
+PROJETO SITE CAKE LOVERS
+
+VERSAO LOCAL EDITAVEL
+- Pasta principal: site-cake-lovers
+- Arquivo inicial: site-cake-lovers/index.html
+- Objetivo: base de trabalho usada para todas as edicoes
+
+VERSAO ONLINE PARA TESTES
+- Repositorio GitHub: https://github.com/Leandr0Cost4/cake-lovers-site
+- GitHub Pages: https://leandr0cost4.github.io/cake-lovers-site/
+- Objetivo: validacao rapida no celular e em outros aparelhos
+
+OBSERVACAO
+- Sempre que uma alteracao for aprovada, a pasta local deve continuar igual a versao publicada.
