@@ -1,0 +1,34 @@
+PASTA: logo
+
+ARQUIVO USADO NO SITE:
+- logo01.png
+- logo-header.jpg
+- logo-mobile-wordmark.png
+- logo-mobile-delicate-source.png
+- logo-mobile-delicate-transparent.png
+- logo-mobile-gotas-source.png
+- logo-mobile-gotas-clean.png
+
+DIMENSAO RECOMENDADA:
+- 1200 x 700 px
+- logo-header.jpg: imagem usada no cabecalho desktop
+- logo-mobile-wordmark.png: versao horizontal usada no cabecalho mobile
+- logo-mobile-delicate-source.png: arquivo base da nova logo mobile
+- logo-mobile-delicate-transparent.png: versao recortada com fundo transparente para uso real no cabecalho mobile
+- logo-mobile-gotas-source.png: imagem enviada pelo usuario como referencia da nova logo mobile
+- logo-mobile-gotas-clean.png: versao limpa usada no cabecalho mobile atual
+
+OBSERVACOES:
+- A logo atual ja foi colocada nesta pasta com o nome logo01.png.
+- A versao do cabecalho desktop foi criada como logo-header.jpg.
+- A versao horizontal do cabecalho mobile foi criada como logo-mobile-wordmark.png.
+- A nova arte base para o mobile foi salva como logo-mobile-delicate-source.png.
+- A versao final pronta para o mobile foi salva como logo-mobile-delicate-transparent.png.
+- A nova referencia enviada pelo usuario foi salva como logo-mobile-gotas-source.png.
+- A versao limpa atualmente usada no mobile foi salva como logo-mobile-gotas-clean.png.
+- Se quiser trocar, mantenha o mesmo nome: logo01.png
+- Se quiser trocar apenas a do desktop, mantenha o mesmo nome: logo-header.jpg
+- Se quiser trocar apenas a do mobile, mantenha o mesmo nome: logo-mobile-wordmark.png
+- Se quiser trocar a nova logo mobile delicada, mantenha o mesmo nome: logo-mobile-delicate-transparent.png
+- Se quiser trocar a logo mobile atual com gotas coloridas, mantenha o mesmo nome: logo-mobile-gotas-clean.png
+- Prefira arquivo com fundo transparente em PNG.
