@@ -215,7 +215,13 @@
     letter-spacing: 0.15em !important;
     text-transform: uppercase !important;
     color: rgba(75, 43, 38, 0.92) !important;
-    transform: none !important;
+    opacity: 0 !important;
+    transform: translateY(0.55rem) !important;
+    transition:
+      opacity 170ms ease,
+      transform 190ms ease,
+      color 120ms ease !important;
+    transition-delay: 0ms !important;
   }
 
   .site-nav-links-mobile a::after {
@@ -230,6 +236,28 @@
     font-weight: 400 !important;
     line-height: 1 !important;
     color: rgba(90, 58, 51, 0.48) !important;
+  }
+
+  .site-nav-links-mobile a:nth-child(1) {
+    --menu-link-delay: 55ms;
+  }
+
+  .site-nav-links-mobile a:nth-child(2) {
+    --menu-link-delay: 95ms;
+  }
+
+  .site-nav-links-mobile a:nth-child(3) {
+    --menu-link-delay: 135ms;
+  }
+
+  .site-nav-links-mobile a:nth-child(4) {
+    --menu-link-delay: 175ms;
+  }
+
+  .site-header.menu-open .site-nav-links-mobile a {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition-delay: var(--menu-link-delay, 0ms) !important;
   }
 
   .site-nav-links-mobile a:hover,
