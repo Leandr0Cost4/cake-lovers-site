@@ -218,8 +218,8 @@
     opacity: 0 !important;
     transform: translateY(0.55rem) !important;
     transition:
-      opacity 170ms ease,
-      transform 190ms ease,
+      opacity 260ms ease,
+      transform 280ms ease,
       color 120ms ease !important;
     transition-delay: 0ms !important;
   }
@@ -239,19 +239,19 @@
   }
 
   .site-nav-links-mobile a:nth-child(1) {
-    --menu-link-delay: 55ms;
+    --menu-link-delay: 110ms;
   }
 
   .site-nav-links-mobile a:nth-child(2) {
-    --menu-link-delay: 95ms;
+    --menu-link-delay: 190ms;
   }
 
   .site-nav-links-mobile a:nth-child(3) {
-    --menu-link-delay: 135ms;
+    --menu-link-delay: 270ms;
   }
 
   .site-nav-links-mobile a:nth-child(4) {
-    --menu-link-delay: 175ms;
+    --menu-link-delay: 350ms;
   }
 
   .site-header.menu-open .site-nav-links-mobile a {
