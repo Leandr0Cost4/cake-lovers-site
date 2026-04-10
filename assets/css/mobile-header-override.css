@@ -58,10 +58,9 @@
   }
 
   .header-row {
-    position: relative !important;
-    display: flex !important;
+    display: grid !important;
+    grid-template-columns: 3.1rem minmax(0, 1fr) 3.1rem !important;
     align-items: center !important;
-    justify-content: space-between !important;
     min-height: 4.2rem !important;
     height: 4.2rem !important;
     margin: 0 !important;
@@ -72,9 +71,8 @@
   }
 
   .brand {
-    position: absolute !important;
-    left: 50% !important;
-    top: 50% !important;
+    grid-column: 2 !important;
+    justify-self: center !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -88,12 +86,15 @@
     border-radius: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
-    transform: translate(-50%, -50%) !important;
+    z-index: 3 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
   }
 
   .brand:hover,
   .brand:focus-visible {
-    transform: translate(-50%, -50%) !important;
+    transform: none !important;
   }
 
   .brand-desktop-image {
@@ -108,10 +109,13 @@
     max-height: 100% !important;
     object-fit: contain !important;
     object-position: center center !important;
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 
   .mobile-header-spacer {
     display: block !important;
+    grid-column: 3 !important;
     width: 3.1rem !important;
     height: 3.1rem !important;
     visibility: hidden !important;
@@ -119,6 +123,8 @@
 
   .menu-toggle {
     display: inline-flex !important;
+    grid-column: 1 !important;
+    justify-self: start !important;
     align-items: center !important;
     justify-content: center !important;
     width: 3.1rem !important;
@@ -282,6 +288,7 @@
 
 @media (max-width: 760px) {
   .header-row {
+    grid-template-columns: 2.9rem minmax(0, 1fr) 2.9rem !important;
     min-height: 4rem !important;
     height: 4rem !important;
     padding: 0 0.78rem !important;
@@ -333,6 +340,7 @@
   }
 
   .header-row {
+    grid-template-columns: 2.7rem minmax(0, 1fr) 2.7rem !important;
     min-height: 3.8rem !important;
     height: 3.8rem !important;
     padding: 0 0.6rem !important;
