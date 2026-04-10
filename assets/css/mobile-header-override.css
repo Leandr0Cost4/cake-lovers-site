@@ -157,7 +157,7 @@
     left: 0 !important;
     top: 0 !important;
     z-index: 140 !important;
-    width: min(20rem, 84vw) !important;
+    width: min(21rem, 88vw) !important;
     height: 100dvh !important;
     max-height: 100dvh !important;
     overflow-y: auto !important;
@@ -314,7 +314,7 @@
   }
 
   .site-nav {
-    width: min(18.5rem, 86vw) !important;
+    width: min(19.5rem, 90vw) !important;
     padding: calc(4.75rem + env(safe-area-inset-top, 0px)) 1rem calc(0.95rem + env(safe-area-inset-bottom, 0px)) !important;
   }
 
@@ -366,7 +366,7 @@
   }
 
   .site-nav {
-    width: min(17rem, 87vw) !important;
+    width: min(18rem, 91vw) !important;
     padding: calc(4.55rem + env(safe-area-inset-top, 0px)) 0.82rem calc(0.9rem + env(safe-area-inset-bottom, 0px)) !important;
   }
 
