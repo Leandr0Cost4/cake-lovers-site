@@ -10,8 +10,25 @@
     white-space: nowrap;
   }
 
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+    line-height: 0;
+  }
+
   .brand-desktop-image {
+    display: block;
+    width: auto;
+    height: 82px;
     object-fit: contain;
     object-position: center center;
+  }
+
+  .brand-mobile-image {
+    display: none !important;
   }
 }
