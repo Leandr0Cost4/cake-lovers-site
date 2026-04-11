@@ -9,4 +9,9 @@
   .site-nav a {
     white-space: nowrap;
   }
+
+  .brand-desktop-image {
+    object-fit: contain;
+    object-position: center center;
+  }
 }
