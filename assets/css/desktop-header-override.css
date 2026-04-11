@@ -1,0 +1,12 @@
+@media (min-width: 921px) {
+  .site-nav-links-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+  }
+
+  .site-nav a {
+    white-space: nowrap;
+  }
+}
