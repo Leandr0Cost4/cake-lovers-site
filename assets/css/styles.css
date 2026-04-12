@@ -751,7 +751,7 @@ span {
   box-shadow: 0 16px 30px rgba(116, 76, 67, 0.16);
   color: var(--chocolate);
   cursor: pointer;
-  transform: translateY(-50%);
+  transform: translateY(-1px);
   transition:
     transform 200ms ease,
     background-color 200ms ease,
