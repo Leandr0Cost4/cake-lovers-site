@@ -1246,6 +1246,18 @@ span {
 .whatsapp-float-icon svg {
   width: 24px;
   height: 24px;
+  overflow: visible;
+}
+
+.whatsapp-float-bubble {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.whatsapp-float-phone {
   fill: currentColor;
 }
 
