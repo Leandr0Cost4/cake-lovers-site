@@ -739,8 +739,8 @@ span {
   position: absolute;
   top: 50%;
   z-index: 2;
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -768,7 +768,7 @@ span {
 
 .hero-nav span {
   display: block;
-  font-size: 1.50rem;
+  font-size: 1.20rem;
   line-height: 1;
   transform: translateY(-4px);
 }
