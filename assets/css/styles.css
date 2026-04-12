@@ -1252,7 +1252,10 @@ span {
 
 .whatsapp-float-bubble {
   fill: currentColor;
-  fill-rule: evenodd;
+}
+
+.whatsapp-float-bubble-hole {
+  fill: #fff4f8;
 }
 
 .whatsapp-float-phone {
