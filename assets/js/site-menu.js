@@ -11,9 +11,34 @@
   var toggle = document.getElementById("menu-toggle");
   var nav = document.getElementById("site-nav");
   var heroSection = document.querySelector(".hero-section");
+  var navigationEntry = window.performance && typeof window.performance.getEntriesByType === "function"
+    ? window.performance.getEntriesByType("navigation")[0]
+    : null;
+  var navigationType = navigationEntry && navigationEntry.type
+    ? navigationEntry.type
+    : (window.performance && window.performance.navigation && window.performance.navigation.type === 1 ? "reload" : "navigate");
 
   if (!header || !toggle || !nav) {
     return;
+  }
+
+  if ("scrollRestoration" in window.history) {
+    window.history.scrollRestoration = "manual";
+  }
+
+  function resetScrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
+  if (navigationType === "reload") {
+    if (window.location.hash && window.history && typeof window.history.replaceState === "function") {
+      window.history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+
+    resetScrollToTop();
+
+    window.addEventListener("load", resetScrollToTop);
+    window.addEventListener("pageshow", resetScrollToTop);
   }
 
   var mobileMedia = window.matchMedia("(max-width: 920px)");
