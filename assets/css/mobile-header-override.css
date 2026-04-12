@@ -47,8 +47,8 @@
     transform: none !important;
     transition: none !important;
     background: rgba(255, 252, 249, 0.97) !important;
-    border-bottom: 1px solid rgba(122, 82, 75, 0.12) !important;
-    box-shadow: 0 10px 24px rgba(92, 59, 53, 0.06) !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
     -webkit-backdrop-filter: blur(16px) !important;
     backdrop-filter: blur(16px) !important;
   }
@@ -334,11 +334,17 @@
   }
 
   .hero-section {
-    padding-top: calc(var(--mobile-header-safe-top) + var(--mobile-header-height) + 0.25rem) !important;
+    padding-top: calc(var(--mobile-header-safe-top) + var(--mobile-header-height)) !important;
+    margin-top: -1px !important;
   }
 
   .hero-stage {
     margin-top: 0 !important;
+  }
+
+  .hero-frame {
+    border-top: 0 !important;
+    box-shadow: none !important;
   }
 }
 
