@@ -1244,21 +1244,13 @@ span {
 }
 
 .whatsapp-float-icon svg {
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
   overflow: visible;
   shape-rendering: geometricPrecision;
 }
 
-.whatsapp-float-bubble {
-  fill: currentColor;
-}
-
-.whatsapp-float-bubble-hole {
-  fill: #fff4f8;
-}
-
-.whatsapp-float-phone {
+.whatsapp-float-mark {
   fill: currentColor;
 }
 
