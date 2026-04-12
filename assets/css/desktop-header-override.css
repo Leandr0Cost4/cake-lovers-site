@@ -1,4 +1,8 @@
 @media (min-width: 921px) {
+  .hero-section {
+    padding-top: 6.35rem;
+  }
+
   .header-bar {
     grid-template-columns: auto 1fr auto;
     align-items: center;
