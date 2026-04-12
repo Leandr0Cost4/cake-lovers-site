@@ -112,7 +112,12 @@
       -->
       <section class="hero-section" id="inicio">
         <div class="hero-stage">
-          <div class="hero-frame">
+          <div
+            class="hero-frame hero-carousel"
+            aria-label="Promocoes e destaques da Cake Lovers"
+            aria-roledescription="carousel"
+            data-autoplay-interval="5600"
+          >
             <div class="hero-track">
               <!-- BANNER 01 -->
               <article class="hero-slide hero-slide-coral hero-slide-1">
@@ -221,13 +226,21 @@
                 </div>
               </article>
             </div>
+
+            <button class="hero-nav hero-nav-prev" type="button" aria-label="Voltar banner">
+              <span aria-hidden="true">&#8249;</span>
+            </button>
+
+            <button class="hero-nav hero-nav-next" type="button" aria-label="Avancar banner">
+              <span aria-hidden="true">&#8250;</span>
+            </button>
           </div>
 
           <div class="container hero-controls">
-            <div class="hero-dots" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
+            <div class="hero-dots" aria-label="Selecionar banner">
+              <button class="hero-dot is-active" type="button" aria-label="Ir para o banner 1" aria-current="true"></button>
+              <button class="hero-dot" type="button" aria-label="Ir para o banner 2" aria-current="false"></button>
+              <button class="hero-dot" type="button" aria-label="Ir para o banner 3" aria-current="false"></button>
             </div>
           </div>
         </div>
@@ -560,9 +573,10 @@
         </svg>
       </span>
       <span class="whatsapp-float-text">Fale no WhatsApp</span>
-    </a>
+      </a>
 
-    <script src="assets/js/whatsapp-button.js"></script>
-    <script src="assets/js/site-menu.js"></script>
-  </body>
-</html>
+      <script src="assets/js/whatsapp-button.js"></script>
+      <script src="assets/js/hero-carousel.js"></script>
+      <script src="assets/js/site-menu.js"></script>
+    </body>
+  </html>
