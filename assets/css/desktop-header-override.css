@@ -3,6 +3,33 @@
     padding-top: 6.8rem;
   }
 
+  .hero-frame {
+    background: #ffffff;
+  }
+
+  .hero-frame::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+    height: 2px;
+    background: rgba(239, 91, 141, 0.9);
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .hero-slide {
+    background: #ffffff !important;
+    background-image: none !important;
+  }
+
+  .hero-slide::before,
+  .hero-slide::after {
+    content: none;
+  }
+
   .header-bar {
     grid-template-columns: auto 1fr auto;
     align-items: center;
