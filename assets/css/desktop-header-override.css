@@ -38,9 +38,10 @@
 
   .site-nav {
     grid-column: 2;
-    justify-self: center;
+    justify-self: start;
     align-items: center;
     gap: 0;
+    margin-left: 1rem;
   }
 
   .site-nav-links-desktop {
