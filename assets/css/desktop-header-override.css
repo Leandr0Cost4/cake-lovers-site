@@ -23,11 +23,54 @@
   .hero-slide {
     background: #ffffff !important;
     background-image: none !important;
+    min-height: 11.7rem;
   }
 
   .hero-slide::before,
   .hero-slide::after {
     content: none;
+  }
+
+  .hero-frame,
+  .hero-content {
+    min-height: 11.7rem;
+  }
+
+  .hero-content {
+    gap: 0.8rem;
+    padding: 1.8rem 0 0.55rem;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2.6rem, 4.2vw, 4rem);
+    max-width: 8.1ch;
+  }
+
+  .hero-copy h2 {
+    font-size: clamp(2rem, 3.1vw, 3.1rem);
+  }
+
+  .hero-copy p {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .hero-actions {
+    margin-top: 0.75rem;
+  }
+
+  .bubble-card,
+  .stack-card {
+    padding: 0.8rem 0.92rem;
+  }
+
+  .bubble-card-large {
+    width: min(100%, 23rem);
+    padding: 0.92rem;
+  }
+
+  .hero-controls {
+    margin-top: 0.15rem;
   }
 
   .header-bar {
