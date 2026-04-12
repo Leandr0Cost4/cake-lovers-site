@@ -1470,26 +1470,26 @@ span {
 
   .hero-frame,
   .hero-slide {
-    min-height: 12.2rem;
+    min-height: 10.9rem;
   }
 
   .hero-content {
-    min-height: 12.2rem;
-    padding: 2.1rem 0 0.72rem;
-    gap: 0.85rem;
+    min-height: 10.9rem;
+    padding: 1.55rem 0 0.5rem;
+    gap: 0.75rem;
   }
 
   .hero-visual {
-    gap: 0.8rem;
+    gap: 0.65rem;
   }
 
   .hero-nav {
-    width: 3rem;
-    height: 3rem;
+    width: 2.75rem;
+    height: 2.75rem;
   }
 
   .hero-nav span {
-    font-size: 1.7rem;
+    font-size: 1.52rem;
   }
 
   .hero-nav-prev {
@@ -1604,13 +1604,13 @@ span {
 
   .hero-frame,
   .hero-slide {
-    min-height: 11.2rem;
+    min-height: 9.4rem;
   }
 
   .hero-content {
-    min-height: 11.2rem;
-    padding: 0.76rem 0 0.62rem;
-    gap: 0.7rem;
+    min-height: 9.4rem;
+    padding: 0.58rem 0 0.46rem;
+    gap: 0.55rem;
   }
 
   h1,
@@ -1620,11 +1620,11 @@ span {
   }
 
   h1 {
-    font-size: clamp(2.6rem, 12vw, 4rem);
+    font-size: clamp(2.15rem, 10.6vw, 3.15rem);
   }
 
   h2 {
-    font-size: clamp(2.1rem, 10vw, 3.2rem);
+    font-size: clamp(1.7rem, 8.8vw, 2.45rem);
   }
 
   .hero-copy p,
@@ -1635,16 +1635,18 @@ span {
   .info-card p,
   .contact-card p,
   .site-footer p {
-    font-size: 0.95rem;
+    font-size: 0.88rem;
   }
 
   .hero-actions {
     width: 100%;
-    gap: 0.65rem;
+    gap: 0.5rem;
   }
 
   .hero-actions .button {
     width: 100%;
+    min-height: 44px;
+    font-size: 0.9rem;
   }
 
   .bubble-card-large,
@@ -1657,17 +1659,17 @@ span {
 
   .bubble-card,
   .stack-card {
-    padding: 0.95rem 1rem;
-    border-radius: 20px;
+    padding: 0.75rem 0.82rem;
+    border-radius: 18px;
   }
 
   .hero-nav {
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 2.45rem;
+    height: 2.45rem;
   }
 
   .hero-nav span {
-    font-size: 1.55rem;
+    font-size: 1.34rem;
   }
 
   .hero-nav-prev {
@@ -1790,20 +1792,36 @@ span {
 
   .hero-frame,
   .hero-slide {
-    min-height: 10.4rem;
+    min-height: 8.8rem;
   }
 
   .hero-content {
-    min-height: 10.4rem;
-    padding: 0.66rem 0 0.55rem;
+    min-height: 8.8rem;
+    padding: 0.48rem 0 0.38rem;
   }
 
   h1 {
-    font-size: clamp(2.3rem, 12vw, 3.2rem);
+    font-size: clamp(1.95rem, 10.5vw, 2.7rem);
   }
 
   h2 {
-    font-size: clamp(1.9rem, 9vw, 2.7rem);
+    font-size: clamp(1.55rem, 8vw, 2.2rem);
+  }
+
+  .hero-copy p {
+    font-size: 0.82rem;
+    line-height: 1.38;
+  }
+
+  .hero-actions .button {
+    min-height: 41px;
+    font-size: 0.86rem;
+  }
+
+  .bubble-card,
+  .stack-card {
+    padding: 0.66rem 0.72rem;
+    border-radius: 17px;
   }
 
   .eyebrow,
